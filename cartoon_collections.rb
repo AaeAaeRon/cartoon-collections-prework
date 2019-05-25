@@ -27,7 +27,8 @@ def find_the_cheese(potentially_cheesy_items)
 end
 
 find_the_cheese(potentially_cheesy_items)
-© 2019 GitHub, Inc.
+
+
 
 
 
