@@ -14,19 +14,16 @@ def long_planeteer_calls(array)
   end
 end
 
+am_i_cheese = %w[peacoat spinach cheddar helicopter]
 
-
-potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
-
-def find_the_cheese(potentially_cheesy_items)
+def find_the_cheese(am_i_cheese)
   cheeses = %w[gouda cheddar camembert]
-
-  potentially_cheesy_items.find do |maybe_cheese|
+  am_i_cheese.find do |maybe_cheese|
     cheeses.include?(maybe_cheese)
   end
 end
 
-find_the_cheese(potentially_cheesy_items)
+find_the_cheese(am_i_cheese)
 
 
 
